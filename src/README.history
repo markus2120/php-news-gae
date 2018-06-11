@@ -1,0 +1,68 @@
+    1  ls
+    2  vi README-cloudshell.txt 
+    3  cd src/php-news-189615/php_gae_quickstart-2017-12-20-16-21/
+    4  ls
+    5  vi helloworld.php 
+    6  history 
+    7  gcloud app  deploy src/php-news-189615/php_gae_quickstart-2017-12-20-16-21/app.yaml 
+    8  vi src/php-news-189615/php_gae_quickstart-2017-12-20-16-21/helloworld.php 
+    9  gcloud app  deploy src/php-news-189615/php_gae_quickstart-2017-12-20-16-21/app.yaml 
+   10  vi src/php-news-189615/php_gae_quickstart-2017-12-20-16-21/helloworld.php 
+   11  bg
+   12  bq
+   13  curl whatismyip.net
+   14  curl api.ip2geo.pl/json
+   15  curl https://api.ip2geo.pl/json
+   16  curl https://api.ip2geo.pl/json/
+   17  curl https://api.ip2geo.pl/
+   18  curl https://api.ip2geo.pl/txt
+   19  curl https://api.ip2geo.pl/txt/
+   20  ls
+   21  cd src/php-news-189615/php_gae_quickstart-2017-12-20-16-21/
+   22  ls
+   23  cd
+   24  history 
+   25  gcloud app  deploy src/php-news-189615/php_gae_quickstart-2017-12-20-16-21/app.yaml 
+   26  gcloud app  deploy src/php-news-189615/php_gae_quickstart-2017-12-20-16-21/app.yaml -y
+   27  gcloud app  deploy src/php-news-189615/php_gae_quickstart-2017-12-20-16-21/app.yaml --help
+   28  gcloud beta app deply
+   29  gcloud beta app deploy
+   30  ls
+   31  cd src/php-news-189615/php_gae_quickstart-2017-12-20-16-21/
+   32  ls
+   33  gcloud beta app deploy
+   34  gcloud app logs tail -s default
+   35  gcloud beta app deploy
+   36  gcloud app list versions
+   37  gcloud app versions list
+   38  gcloud config set app/promote_by_default false
+   39  gcloud config --stop-previous-version
+   40  gcloud app versions list
+   41  vi app.yaml 
+   42  s
+   43  ls
+   44  gcloud app versions list
+   45  gcloud app versions delete v1
+   46  vi app.yaml 
+   47  gcloud app versions delete 20171220t162527
+   48  gcloud
+   49  gcloud --help
+   50  gcloud app versions delete 20171220t163022
+   51  gcloud beta app versions stop
+   52  gcloud beta app 2017* stop
+   53* gcloud beta app 
+   54  gcloud app versions list
+   55  gcloud app  deploy app.yaml 
+   56  gcloud app versions list
+   57  gcloud app  deploy --version dev app.yaml 
+   58  gcloud app versions list
+   59* gcloud app versions delete     [A
+   60  gcloud app versions list
+   61  gcloud config set app/promote_by_default true
+   62  gcloud app versions list
+   63  gcloud app  deploy  app.yaml 
+   64  gcloud app  deploy --version dev app.yaml 
+   65  gcloud app  deploy  app.yaml 
+   66  gcloud app versions list
+   67  history
+   68  history > README.history
