@@ -34,12 +34,12 @@
           
                         $newsSource = array(
                             array(
-                                "title" => "Jeffrey Sachs",
-                                "url" => "https://www.twitrss.me/twitter_user_to_rss/?user=jeffdsachs"
+                                "title" => "ComputerWorld",
+                                "url" => "https://www.computerworld.com/index.rss"
                             ),                            
                             array(
-                                "title" => "Nature",
-                                "url" => "https://www.twitrss.me/twitter_user_to_rss/?user=NatureNews"
+                                "title" => "Hindu",
+                                "url" => "http://www.thehindu.com/news/national/?service=rss"
                             ),                            
                             array(
                                 "title" => "TechCrunch",
