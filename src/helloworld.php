@@ -34,9 +34,13 @@
           
                         $newsSource = array(
                             array(
+                                "title" => "FT",
+                                "url" => "https://www.ft.com/world?format=rss"
+                            ),      
+                            array(
                                 "title" => "Indy100",
                                 "url" => "https://www.indy100.com/rss"
-                            ),                            
+                            ),      
                             array(
                                 "title" => "ComputerWorld",
                                 "url" => "https://www.computerworld.com/index.rss"
