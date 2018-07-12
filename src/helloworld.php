@@ -34,8 +34,8 @@
           
                         $newsSource = array(
                             array(
-                                "title" => "FT",
-                                "url" => "https://www.ft.com/world?format=rss"
+                                "title" => "SuedD",
+                                "url" => "http://rss.sueddeutsche.de/rss/Topthemen"
                             ),      
                             array(
                                 "title" => "Indy100",
