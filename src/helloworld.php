@@ -46,12 +46,12 @@
                                 "url" => "https://sz-magazin.sueddeutsche.de/rss"
                             ),      
                             array(
-                                "title" => "ComputerWorld",
-                                "url" => "https://www.computerworld.com/index.rss"
+                                "title" => "Gesellschaft",
+                                "url" => "http://rss.sueddeutsche.de/rss/Leben"
                             ),                            
                             array(
-                                "title" => "Hindu",
-                                "url" => "http://www.thehindu.com/news/national/?service=rss"
+                                "title" => "Medien",
+                                "url" => "http://rss.sueddeutsche.de/rss/Medien"
                             ),                            
                             array(
                                 "title" => "TechCrunch",
