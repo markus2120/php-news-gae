@@ -54,8 +54,12 @@
                                 "url" => "http://rss.sueddeutsche.de/rss/Medien"
                             ),                            
                             array(
-                                "title" => "TechCrunch",
-                                "url" => "http://feeds.feedburner.com/Techcrunch/europe"
+                                "title" => "Politik",
+                                "url" => "http://rss.sueddeutsche.de/rss/Politik"
+                            ),                            
+                            array(
+                                "title" => "Karriere",
+                                "url" => "http://rss.sueddeutsche.de/rss/Karriere"
                             ),                            
                             array(
                                 "title" => "Handelsblatt",
