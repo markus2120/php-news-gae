@@ -38,8 +38,12 @@
                                 "url" => "http://rss.sueddeutsche.de/rss/Topthemen"
                             ),      
                             array(
-                                "title" => "Indy100",
-                                "url" => "https://www.indy100.com/rss"
+                                "title" => "Eilmeldungen",
+                                "url" => "http://rss.sueddeutsche.de/rss/Eilmeldungen"
+                            ),      
+                            array(
+                                "title" => "SZ-Magazin",
+                                "url" => "https://sz-magazin.sueddeutsche.de/rss"
                             ),      
                             array(
                                 "title" => "ComputerWorld",
