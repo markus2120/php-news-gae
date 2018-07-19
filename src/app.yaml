@@ -2,8 +2,15 @@ runtime: php55
 api_version: 1
 
 
-
 handlers:
+- url: /e
+  script: entry.php
+  secure: always
+
+- url: /g
+  script: g.php
+  secure: always
+
 - url: /.*
-  script: helloworld.php
+  script: news.php
   secure: always

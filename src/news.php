@@ -34,88 +34,80 @@
           
                         $newsSource = array(
                             array(
-                                "title" => "IE",
-                                "url" => "https://indianexpress.com/section/india/politics/feed/"
-                            ),      
-                            array(
-                                "title" => "SuedD",
-                                "url" => "http://rss.sueddeutsche.de/rss/Topthemen"
-                            ),      
-                            array(
-                                "title" => "Eilmeldungen",
-                                "url" => "http://rss.sueddeutsche.de/rss/Eilmeldungen"
-                            ),      
-                            array(
-                                "title" => "SZ-Magazin",
-                                "url" => "https://sz-magazin.sueddeutsche.de/rss"
-                            ),      
-                            array(
-                                "title" => "Gesellschaft",
-                                "url" => "http://rss.sueddeutsche.de/rss/Leben"
-                            ),                            
-                            array(
-                                "title" => "Medien",
-                                "url" => "http://rss.sueddeutsche.de/rss/Medien"
-                            ),                            
-                            array(
-                                "title" => "Politik",
-                                "url" => "http://rss.sueddeutsche.de/rss/Politik"
-                            ),                            
-                            array(
-                                "title" => "Karriere",
-                                "url" => "http://rss.sueddeutsche.de/rss/Karriere"
-                            ),                            
-                            array(
-                                "title" => "Handelsblatt",
-                                "url" => "http://www.handelsblatt.com/contentexport/feed/top-themen"
-                            ),                            
-                            array(
-                                "title" => "Google US",
-                                "url" => "https://news.google.com/news/rss/?gl=US&ned=us&hl=en"
+                                "title" => "Guardian-US",
+                                "url" => "https://www.theguardian.com/email/us/daily/rss"
                             ),
                             array(
-                                "title" => "Google IN",
-                                "url" => "https://news.google.com/news/rss/?ned=in&gl=IN&hl=en-IN"
+                                "title" => "Guardian-UK",
+                                "url" => "https://www.theguardian.com/uk/rss"
                             ),
                             array(
-                                "title" => "Google GB",
-                                "url" => "https://news.google.com/news/rss/?ned=uk&gl=GB&hl=en-GB"
+                                "title" => "Economist",
+                                "url" => "https://www.economist.com/blogs/economist-explains/index.xml"
                             ),
                             array(
-                                "title" => "The Hindu",
-                                "url" => "http://www.thehindu.com/news/national/?service=rss"
+                                "title" => "BBC",
+                                "url" => "http://feeds.bbci.co.uk/news/world/rss.xml"
                             ),
                             array(
-                                "title" => "Hacker News",
-                                "url" => "https://news.ycombinator.com/rss"
+                                "title" => "GigaOM",
+                                "url" => "https://gigaom.com/feed/"
                             ),
                             array(
-                                "title" => "The Local",
-                                "url" => "https://www.thelocal.de/feeds/rss.php"
+                                "title" => "Android Central",
+                                "url" => "https://feeds2.feedburner.com/androidcentral"
                             ),
                             array(
-                                "title" => "Spiegel",
+                                "title" => "Bild",
+                                "url" => "https://www.bild.de/rss-feeds/rss-16725492,feed=home.bild.html"
+                            ),
+                            array(
+                                "title" => "Golem",
+                                "url" => "https://rss.golem.de/rss.php?feed=RSS2.0"
+                            ),
+                            array(
+                                "title" => "Ars",
+                                "url" => "http://feeds.arstechnica.com/arstechnica/index"
+                            ),
+                            array(
+                                "title" => "NY Times",
+                                "url" => "http://rss.nytimes.com/services/xml/rss/nyt/HomePage.xml"
+                            ),
+                            array(
+                                "title" => "Snopes",
+                                "url" => "https://www.snopes.com/feed/"
+                            ),
+                            array(
+                                "title" => "SPIEGEL",
                                 "url" => "http://www.spiegel.de/schlagzeilen/tops/index.rss"
                             ),
                             array(
-                                "title" => "Reuters",
-                                "url" => "http://feeds.reuters.com/reuters/topNews"
+                                "title" => "TechCrunch",
+                                "url" => "http://feeds.feedburner.com/TechCrunch"
                             ),
                             array(
-                                "title" => "FAZ",
-                                "url" => "http://www.faz.net/rss/aktuell/"
+                                "title" => "Schneier",
+                                "url" => "https://twitrss.me/twitter_user_to_rss/?user=schneierblog"
                             ),
                             array(
-                                "title" => "Hessenschau",
-                                "url" => "http://www.hessenschau.de/index.rss"
+                                "title" => "The Register",
+                                "url" => "https://www.theregister.co.uk/headlines.rss"
                             ),
                             array(
-                                "title" => "Gnome",
-                                "url" => "http://planet.gnome.org/rss20.xml"
+                                "title" => "TNW",
+                                "url" => "https://thenextweb.com/feed/"
                             ),
                             array(
-                                "title" => "Hessenschau",
-                                "url" => "http://www.hessenschau.de/index.rss"
+                                "title" => "Technology Review",
+                                "url" => "https://www.technologyreview.com/topnews.rss"
+                            ),
+                            array(
+                                "title" => "Technology Review",
+                                "url" => "https://www.technologyreview.com/topnews.rss"
+                            ),
+                            array(
+                                "title" => "Technology Review",
+                                "url" => "https://www.technologyreview.com/topnews.rss"
                             ),
                         );
                         function getFeed($url){
@@ -124,7 +116,7 @@
                             $html .= '<ul>';
                             foreach($rss->channel->item as$item) {
                                 $count++;
-                                if($count > 9){
+                                if($count > 5){
                                     break;
                                 }
 //                                 $html .= '<br>'.htmlspecialchars($item->description).'<li><a href="'.htmlspecialchars($item->link).'">'.htmlspecialchars($item->title).'</a></li><br>';
