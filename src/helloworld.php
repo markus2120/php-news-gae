@@ -34,6 +34,10 @@
           
                         $newsSource = array(
                             array(
+                                "title" => "Ars",
+                                "url" => "http://feeds.arstechnica.com/arstechnica/index"
+                            ),      
+                            array(
                                 "title" => "SuedD",
                                 "url" => "http://rss.sueddeutsche.de/rss/Topthemen"
                             ),      
