@@ -34,8 +34,8 @@
           
                         $newsSource = array(
                             array(
-                                "title" => "Ars",
-                                "url" => "http://feeds.arstechnica.com/arstechnica/index"
+                                "title" => "IE",
+                                "url" => "https://indianexpress.com/section/india/politics/feed/"
                             ),      
                             array(
                                 "title" => "SuedD",
