@@ -3,14 +3,10 @@ api_version: 1
 
 
 handlers:
-- url: /e
+- url: /entry\.html
   script: entry.php
   secure: always
 
-- url: /g
-  script: g.php
-  secure: always
-
-- url: /.*
+- url: /
   script: news.php
   secure: always

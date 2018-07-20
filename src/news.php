@@ -86,10 +86,6 @@
                                 "url" => "http://feeds.feedburner.com/TechCrunch"
                             ),
                             array(
-                                "title" => "Schneier",
-                                "url" => "https://twitrss.me/twitter_user_to_rss/?user=schneierblog"
-                            ),
-                            array(
                                 "title" => "The Register",
                                 "url" => "https://www.theregister.co.uk/headlines.rss"
                             ),
@@ -98,8 +94,8 @@
                                 "url" => "https://thenextweb.com/feed/"
                             ),
                             array(
-                                "title" => "Technology Review",
-                                "url" => "https://www.technologyreview.com/topnews.rss"
+                                "title" => "NewYorker",
+                                "url" => "https://www.newyorker.com/feed/magazine/rss"
                             ),
                             array(
                                 "title" => "Technology Review",
@@ -116,7 +112,7 @@
                             $html .= '<ul>';
                             foreach($rss->channel->item as$item) {
                                 $count++;
-                                if($count > 5){
+                                if($count > 9){
                                     break;
                                 }
 //                                 $html .= '<br>'.htmlspecialchars($item->description).'<li><a href="'.htmlspecialchars($item->link).'">'.htmlspecialchars($item->title).'</a></li><br>';
