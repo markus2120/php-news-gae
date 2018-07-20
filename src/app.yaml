@@ -3,8 +3,8 @@ api_version: 1
 
 
 handlers:
-- url: /entry\.html
-  script: entry.php
+- url: /atom
+  script: atom.php
   secure: always
 
 - url: /
