@@ -34,6 +34,10 @@
           
                         $newsSource = array(
                             array(
+                                "title" => "Engadget",
+                                "url" => "https://www.engadget.com/rss.xml"
+                            ),
+                            array(
                                 "title" => "Guardian-US",
                                 "url" => "https://www.theguardian.com/email/us/daily/rss"
                             ),
@@ -116,7 +120,7 @@
                                     break;
                                 }
 //                                 $html .= '<br>'.htmlspecialchars($item->description).'<li><a href="'.htmlspecialchars($item->link).'">'.htmlspecialchars($item->title).'</a></li><br>';
-                                $html .= '<li><a href="'.htmlspecialchars($item->link).'">'.htmlspecialchars($item->title).'</a></li><br>';
+                                $html .= '<li><h5><a href="'.htmlspecialchars($item->link).'">'.htmlspecialchars($item->title).'</a></h3></li><br>';
                             }
                             $html .= '</ul>';
                             return $html;
