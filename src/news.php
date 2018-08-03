@@ -34,6 +34,10 @@
           
                         $newsSource = array(
                             array(
+                                "title" => "Did you know?",
+                                "url" => "http://feeds.feedburner.com/enwp/DidYouKnow?format=xml"
+                            ),
+                            array(
                                 "title" => "Engadget",
                                 "url" => "https://www.engadget.com/rss.xml"
                             ),
